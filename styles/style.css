@@ -140,7 +140,14 @@ a:focus {
   border-radius: 12px;
 }
 
-.button {
+.button,
+.button-active,
+.button-inactive,
+.button-focus,
+.button-video,
+.focus,
+.inactive,
+.active {
   border: 1px solid #035f03;
 }
 
@@ -176,6 +183,7 @@ a:focus {
 }
 
 /* About us section styling */
+
 #about-us {
   display: flex;
   height: 100vh;
@@ -257,6 +265,7 @@ a:focus {
 }
 
 /* the main sub-section */
+
 #main-content {
   background-image: url("/images/flying-thru-the-vortex-94a269.jpg");
   background-repeat: no-repeat;
@@ -310,6 +319,7 @@ a:focus {
 }
 
 /* more animate section styling */
+
 .more-anime {
   display: block;
   margin: auto;
@@ -327,7 +337,8 @@ a:focus {
   gap: 1rem;
 }
 
-.items {
+.items,
+.item-block {
   width: 20rem;
   height: 28rem;
   border-radius: 12px;
@@ -397,7 +408,9 @@ figure img {
   flex-direction: column;
 }
 
-.description {
+.description,
+.description-one,
+.description-two {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -428,6 +441,7 @@ figure img {
 }
 
 /* Testimonial  */
+
 .testimonial-wrapper {
   padding: 1em;
   display: flex;
