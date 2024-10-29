@@ -259,6 +259,7 @@ a:focus {
 }
 
 /* the main sub-section */
+
 #main-content {
   background-image: url("/images/flying-thru-the-vortex-94a269.jpg");
   background-repeat: no-repeat;
@@ -430,6 +431,7 @@ figure img {
 }
 
 /* Testimonial  */
+
 .testimonial-wrapper {
   padding: 1em;
   display: flex;
