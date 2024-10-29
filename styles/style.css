@@ -139,7 +139,11 @@ a:focus {
   border-radius: 12px;
 }
 
-.button {
+.button,
+.active,
+.focus,
+.inactive,
+.button-link {
   border: 1px solid #035f03;
 }
 
@@ -161,7 +165,7 @@ a:focus {
   background-size: cover;
   padding: 0 1rem;
   width: 90%;
-  height: 100vh;
+  height: 120vh;
   margin: auto;
 }
 
@@ -330,7 +334,11 @@ a:focus {
   gap: 1rem;
 }
 
-.items {
+.items,
+#item-block,
+.items-wrap,
+.items-wrapper,
+.items-div-wrap {
   width: 20rem;
   height: 28rem;
   border-radius: 12px;
