@@ -338,7 +338,8 @@ a:focus {
 #item-block,
 .items-wrap,
 .items-wrapper,
-.items-div-wrap {
+.items-div-wrap,
+.item-block-wrap {
   width: 20rem;
   height: 28rem;
   border-radius: 12px;
