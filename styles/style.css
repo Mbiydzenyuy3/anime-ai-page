@@ -159,6 +159,7 @@ a:focus {
 
 .hero-section {
   background-image: url("/images/business-map-with-buildings-as-backgrounf.jpg");
+  background-color: #000000d8;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -265,6 +266,7 @@ a:focus {
 
 #main-content {
   background-image: url("/images/flying-thru-the-vortex-94a269.jpg");
+  background-color: #000000a7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
