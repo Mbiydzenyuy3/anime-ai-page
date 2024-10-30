@@ -125,10 +125,6 @@ a:focus {
   border-radius: 12px;
 }
 
-.discover-more {
-  padding: 0.8rem;
-}
-
 .btn {
   width: 124px;
   padding: 0.7em;
@@ -156,9 +152,10 @@ a:focus {
   border-radius: 12px;
   background-color: #fff;
   border: 1px solid #000;
+  padding: 0.8rem;
 }
 
-/*hero section styling  */
+/* hero section styling  */
 
 .hero-section {
   background-image: url("/images/business-map-with-buildings-as-backgrounf.jpg");
@@ -278,13 +275,13 @@ a:focus {
 }
 
 .main-content {
-  background-image: url(/images/zeltech.jpg);
+  background-image: url("/images/zeltech.jpg");
   margin: auto;
   filter: brightness(darken);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 0 1rem 0 1rem;
+  padding: 0 1rem;
 }
 
 .center-align-text {
