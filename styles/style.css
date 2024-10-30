@@ -183,7 +183,6 @@ a:focus {
 
 #about-us {
   display: flex;
-  height: 100vh;
   justify-content: space-between;
   align-items: center;
 }
@@ -243,8 +242,8 @@ a:focus {
 
 #brand-logos {
   width: 100%;
-  margin-top: 14rem;
-  margin-bottom: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .logos {
@@ -257,8 +256,8 @@ a:focus {
 }
 
 .logo-items {
-  width: 100px;
-  height: 100px;
+  width: 64px;
+  height: 64px;
 }
 
 .img-image-wrap {
@@ -273,21 +272,17 @@ a:focus {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 0 1rem;
-  width: 98%;
   margin: auto;
   background-blend-mode: darken;
 }
 
 video {
-  width: 350px;
-  height: 350px;
+  width: 100%;
 }
 
 .main-content {
   background-image: url("/images/zeltech.jpg");
   margin: auto;
-  filter: brightness(darken);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
