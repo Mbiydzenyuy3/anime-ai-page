@@ -8,14 +8,11 @@
 
 body {
   color: #000;
- feature/footer
   font-size: 1rem;
   font-family: Poppins, serif;
   font-weight: 400;
   font-style: normal;
-
   font-family: Arial, Helvetica, sans-serif;
- main
   line-height: 1.4rem;
 }
 
@@ -143,7 +140,6 @@ a:focus {
   border-radius: 12px;
 }
 
- feature/footer
 .button,
 .button-active,
 .button-inactive,
@@ -152,8 +148,6 @@ a:focus {
 .focus,
 .inactive,
 .active {
-=======
-.focus {
   border: 1px solid #035f03;
   color: black;
 }
@@ -165,7 +159,6 @@ a:focus {
 .active,
 .inactive,
 .button-link {
- main
   border: 1px solid #035f03;
 }
 
@@ -175,7 +168,6 @@ a:focus {
   border-radius: 12px;
   background-color: #fff;
   border: 1px solid #000;
-feature/footer
   padding: 0.8rem;
 }
 
@@ -183,25 +175,12 @@ feature/footer
 .hero-section {
   background-image: url("../images/team-design.png");
   background-color: #000000d8;
-}
-
-/* hero section styling  */
-
-.hero-section {
-  background-image: url("/images/business-map-with-buildings-as-backgrounf.jpg");
- main
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
- feature/footer
   padding: 1rem;
-
-  padding: 0 1rem;
-  width: 90%;
-  height: 120vh;
- main
-  margin: auto;
+  margin: 0;
 }
 
 .big-heading {
@@ -302,21 +281,14 @@ feature/footer
 /* the main sub-section */
 
 #main-content {
- feature/footer
   background-image: url("../images/pexels-cottonbro-8721318.jpg");
   background-color: #000000a7;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-=======
-  background-image: url("/images/flying-thru-the-vortex-94a269.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   filter: brightness(darken);
   padding: 0 1rem;
   width: 90%;
-main
   margin: auto;
 }
 
@@ -325,11 +297,7 @@ video {
 }
 
 .main-content {
-feature/footer
   background-image: url("../images/zeltech.jpg");
-=======
-  background-image: url("/images/zeltech.jpg");
- main
   margin: auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -390,17 +358,11 @@ feature/footer
 }
 
 .items,
-feature/footer
-.item-block {
-=======
-#item-block,
+.item-block #item-block,
 .items-wrap,
 .items-wrapper,
 .items-div-wrap,
 .wrapper-item {
-  width: 20rem;
-  height: 28rem;
- main
   border-radius: 12px;
   box-shadow: 2px -2px 2px 2px;
   padding: 0.5em;
@@ -410,23 +372,15 @@ feature/footer
   gap: 1rem;
 }
 
- feature/footer
 .order-items-wrapper,
 .order-items,
-.order-wrap {
-=======
-.order-items,
+.order-wrap .order-items,
 .order-item-overlay {
-main
   background-color: #f0f8ff;
 }
 
 .item-span,
-feature/footer
-.item-span-content {
-=======
-.item-span-container {
- main
+.item-span-content .item-span-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -464,8 +418,6 @@ figure img {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  width: 20rem;
-  height: 28rem;
 }
 
 .premium-items {
@@ -494,10 +446,7 @@ figure img {
 }
 
 .description,
- feature/footer
-=======
 .description-block,
- main
 .description-one,
 .description-two {
   display: flex;
