@@ -1,7 +1,63 @@
-@media (min-width: 768px) {
+/* Desktop screen media query */
+@media (min-width: 1200px) {
+  body {
+    font-size: 1rem;
+  }
+
   .hero-section {
     width: 100%;
-    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .big-heading {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .btn,
+  .cta {
+    width: 138px;
+    cursor: alias;
+  }
+
+  header {
+    width: 100%;
+    padding: 1em 0;
+  }
+
+  .menu-bar {
+    width: 100%;
     padding: 0.5em;
+  }
+
+  .menu-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
   }
 }
