@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/query.css">
+    <link rel="stylesheet" href="./styles/query.css" />
   </head>
   <body>
     <div id="home-page">
@@ -17,19 +17,17 @@
         <!-- header section -->
         <header class="header">
           <nav class="menu-bar">
-            <span>
+            <span class="logo-wrapper">
               <h2 class="logo">ANIMAKIT <span class="dot-span">.</span></h2>
             </span>
-            <ul>
-              <div class="menu-link">
-                <a href="">HOME</a>
-                <a href="">BLOG</a>
-                <a href="">ABOUT</a>
-                <a href="">PORTFOLIO</a>
-                <a href="">PRICING</a>
-                <a href="">SERVICES</a>
-                <a href="">CONTACT</a>
-              </div>
+            <ul class="menu-link">
+              <a href="#home-page">HOME</a>
+              <a href="#about-us">About</a>
+              <a href="#main-content">Blog</a>
+              <a href="#profile">PORTFOLIO</a>
+              <a href="#pricing">PRICING</a>
+              <a href="#services">SERVICES</a>
+              <a href="#contact-us">CONTACT</a>
               <button class="cta"><a href="#">GET STARTED</a></button>
             </ul>
             <picture>
@@ -132,9 +130,9 @@
         </div>
       </div>
       <!-- section more animation -->
-      <section class="more-animation">
-          <div class="more-anime">
-          <h3>Animation for People Who Want More.</h3>
+      <section id="profile" class="more-animation">
+        <div class="more-anime">
+          <h3 class="heading-animation">Animation for People Who Want More.</h3>
           <div class="para-btn">
             <p>
               Justo euismod magna dictumst posuera viverra leo ridiculus
@@ -143,11 +141,12 @@
             </p>
             <button class="btn button"><a hre="#">Discover More </a></button>
           </div>
-          </div>
-          <div class="content-boxs">
-          <div class="content-box-flex">
+        </div>
+        <div class="content-boxs">
+          <div id="animation-box-flex">
             <div class="items">
               <img
+                class="design-img"
                 src="./images/pexels-michelangelo-buonarroti-8728382.jpg"
                 alt=""
               />
@@ -159,56 +158,33 @@
               <button class="btn button-active">GET STARTED</button>
             </div>
             <div class="items">
-              <img src="./images/pexels-harschshivam-2007647.jpg" alt="" />
+              <img
+                class="design-img"
+                src="./images/pexels-harschshivam-2007647.jpg"
+                alt=""
+              />
               <h5>2D Animation</h5>
               <p>
                 Nobis dolore omnis mollitia necessitatibus praesentium tempore,
-                quidem sapiente, fugiat ratione magnam laboriosam deleniti
-                Magni, laborum molestiae.
+                quidem sapiente.
               </p>
               <button class="btn button-inactive">GET STARTED</button>
             </div>
             <div class="items">
-              <img src="./images/design.png" alt="" />
+              <img
+                class="design-img"
+                src="./images/outdoor gaming design.png"
+                alt=""
+              />
               <h5>Branded and Digital Branded</h5>
               <p>
                 Corpus agebam audiam cur altera sap tum ita potius ingens.
-                Admovetur praestari quarundam iis concursum incurrant etc cur
-                creatorem.
+                Admovetur praestari quarundam .
               </p>
               <button class="btn button-focus">GET STARTED</button>
-            <div id="wrapper-item">
-              <img src="./images/medosa ai.jpg" alt="" />
-              <h5>3D Animation</h5>
-              <p>
-                ipsum dolor sit amet consectetur, adipisicing elit. Alias
-                cupiditate eaque nesciunt nisi, ipsam ex provident cumque Odio
-                nam sint quod atque delectus eum magni doloremque accusantium
-                quibusdam officiis?
-              </p>
-              <button class="btn focus">GET STARTED</button>
-            </div>
-            <div class="items-wrap">
-              <img src="./images/artificial.jpg" alt="" />
-              <h5>2D Animation</h5>
-              <p>
-                Malesuada dis sollcitudin facilisis enim eit erat eleifend nec
-                hendrerit felis
-              </p>
-              <button class="btn active">GET STARTED</button>
-            </div>
-            <div class="items">
-              <img src="./images/scary ai.jpg" alt="" />
-              <h5>Branded and Digital Branded</h5>
-              <p>
-                Malesuada dis sollcitudin facilisis enim eit erat eleifend nec
-                hendrerit felis
-              </p>
-              <button class="btn inactive">GET STARTED</button>
-            </div>
             </div>
           </div>
-          <div class="content-box-flex">
+          <div id="pricing" class="content-box-flex">
             <div class="items">
               <video width="100%" height="100%" autoplay loop muted playsinline>
                 <source
@@ -221,19 +197,11 @@
                 Vul cui aberrare sae sequatur superest utrumque. Cum asseverent
                 efficietur existentia facillimam iii ima perfectius.
               </p>
-              <img src="./images/ai buggy.jpg" alt="" />
-              <h5>Ads Videa Animations</h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                sed aliquam blanditiis voluptas sit debitis fugit quis
-                doloremque aperiam!
-              </p>
-              <button class="btn button-video">GET STARTED</button>
+              <button class="btn button">GET STARTED</button>
             </div>
-            <div class="item-block">
-            <img src="./images/pexels-thisisengineering-3861458.jpg" alt="" />
+
             <div class="items-wrapper">
-              <img src="./images/ai intel.jpg" alt="" />
+              <img src="./images/pexels-thisisengineering-3861458.jpg" alt="" />
               <h5>Production for Agencies</h5>
               <p>
                 Malesuada dis sollcitudin facilisis enim eit erat eleifend nec
@@ -243,8 +211,6 @@
             </div>
             <div class="items">
               <img src="./images/pexels-fauxels-3183135.jpg" alt="" />
-            <div class="items-div-wrap">
-              <img src="./images/next gen ai.jpg" alt="" />
               <h5>Movies</h5>
               <p>
                 Praesentium esse ab consequuntur ducimus consequatur officia
@@ -254,221 +220,205 @@
               <button class="btn button">GET STARTED</button>
             </div>
           </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>
     <!-- New section  why chose us blog-->
-    <section id="blog">
-        <div class="blog-why-choose-us">
-          <div class="blog-content-why-choose-us">
-            <span class="who-we-are">WHY CHOOSE US</span>
-            <div class="content-spacing why-content">
-              <h3 class="heading-three">
-                You'll never have to worry about animations anymore.
-              </h3>
-              <p class="paragraph-two">
-                In etiam tempus donec morbi dignissim conubia. Fermentum risus
-                dapidus rutrum cubilia cras purus.Pede vel venenatis elementum
-                vestibulum curabitur.
-              </p>
-              <div class="premium">
-                <div class="premium-items">
-                  <div>
-                    <img
-                      class="premium-img"
-                      src="./images/time wheel.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div>
-                    <h6>Premium Quality Animations</h6>
-                    <p>
-                      Malesuada dis sollicitudin tristique facilisis enim sit
-                      erar t eleifend necc henderit felis
-                    </p>
-                  </div>
-                </div>
-                <div class="premium-items">
-                  <img
-                    class="premium-img"
-                    src="./images/time wheel.jpg"
-                    alt=""
-                  />
-                  <div>
-                    <h6>Creative team</h6>
-                    <p>
-                      Voluptate eveniet alias, blanditiis quisquam modi,
-                      explicabo quae nam dolore suscipit officia magnam?
-                    </p>
-                  </div>
-                </div>
-                <div class="premium-items">
-                  <img
-                    class="premium-img"
-                    src="./images/time wheel.jpg"
-                    alt=""
-                  />
-                  <div>
-                    <h6>24/7 Premium Support</h6>
-                    <p>
-                      Massa cras a congue sociosqu vulpaltate est elementum
-                      eleifend iaculis quisque egestas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <img
-              class="imagery-one"
-              src="./images/pexels-joshsorenson-1714208.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <!-- Easy step to order -->
-        <div class="order-items-easy">
-          <div class="image-order">
-            <figure class="figure">
-              <img src="./images/protech.jpg" alt="" />
-            </figure>
-          </div>
-          <div class="order-items">
-            <div class="content-boxs">
-              <div class="content-box-flex">
-                <div class="item-span">
-                  <span class="material-symbols-outlined"> sms </span>
-                  <div class="description">
-                    <h5>Consultation</h5>
-                    <p>
-                      Ducimus, dignissimos? Asperiores, iusto pariatur? Animi,
-                      quia? Laborum, reprehenderit officiis quas doloribus iste
-                      iure dignissimos accusantium, dicta illum numquam nihil
-                      nam velit?
-                      Magni similique architecto, sit nulla nemo magnam quia
-                      debitis impedit facilis voluptatum corrupti libero eos!
-                    </p>
-                    <button class="btn button">CHAT NOW</button>
-                  </div>
-                </div>
-                <div class="item-span">
-                  <span class="material-symbols-outlined"> library_books </span>
-                  <div class="description">
-                    <h5>Choose Package</h5>
-                    <p>
-                      Voluptate eveniet alias, blanditiis quisquam modi,
-                      explicabo quae nam dolore suscipit officia magnam?
-                    </p>
-                    <button class="btn button">ORDER NOW</button>
-                  </div>
-                </div>
-                <div class="item-span">
-                  <span class="material-symbols-outlined">
-                    production_quantity_limits
-                  </span>
-                  <div class="description">
-                    <h5>Productions</h5>
-                    <p>
-                      Consectetur quam asperiores ducimus deserunt eaque sed,
-                      illum sint quasi aspernatur rem.
-                    </p>
-                    <button class="btn button">GET REPORT</button>
-                  </div>
-                </div>
-                <div class="item-span">
-                  <span class="material-symbols-outlined">
-                    forward_to_inbox
-                  </span>
-                  <div class="description">
-                    <h5>Send File Order</h5>
-                    <p>
-                      Voluptate eveniet alias, blanditiis quisquam modi,
-                      explicabo quae nam dolore suscipit officia magnam?
-                    </p>
-                    <button class="btn button">CONTACT US</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-      <!-- make the world better -->
-    <section class="animation-tech">
-      <div class="main-content">
-        <section class="main-section">
-          <div id="content-wrapper-item">
-            <p class="center-align-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Assumenda autem in possimus, fuga ullam ad laboriosam corrupti
-              repellat
+    <section id="services">
+      <div class="blog-why-choose-us">
+        <div class="blog-content-why-choose-us">
+          <span class="who-we-are">WHY CHOOSE US</span>
+          <div class="content-spacing why-content">
+            <h3 class="heading-three">
+              You'll never have to worry about animations anymore.
+            </h3>
+            <p class="paragraph-two">
+              In etiam tempus donec morbi dignissim conubia. Fermentum risus
+              dapidus rutrum cubilia cras purus.Pede vel venenatis elementum
+              vestibulum curabitur.
             </p>
-            <button class="btn"><a href="#">Discover More </a></button>
-          </div>
-        </section>
-      </div>
-      <div class="order-items-wrapper">
-      <div class="content-boxs">
-        <div class="content-box-flex">
-        <div class="item-span-content">
-        <div class="order-item-overlay">
-          <div class="content-wrap">
-            <div class="content-box-flex">
-              <div class="item-span-container">
-                <span class="material-symbols-outlined"> sms </span>
-                <div class="description-block">
-                  <h5>Customer Support</h5>
+            <div class="premium">
+              <div class="premium-items">
+                <div>
+                  <img
+                    class="premium-img"
+                    src="./images/time wheel.jpg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h6>Premium Quality Animations</h6>
                   <p>
-                    Assumenda cupiditate rerum neque repudiandae temporibus quia
-                    alias ab magnam unde sint ea modi quis atque laudantium.
+                    Malesuada dis sollicitudin tristique facilisis enim sit erar
+                    t eleifend necc henderit felis
                   </p>
-                  <button class="btn active">CHAT NOW!</button>
                 </div>
               </div>
-              <div class="item-wrap">
-                <span class="material-symbols-outlined"> library_books </span>
-                <div class="description-one">
-                  <h5>Ticket Support</h5>
+              <div class="premium-items">
+                <img class="premium-img" src="./images/time wheel.jpg" alt="" />
+                <div>
+                  <h6>Creative team</h6>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit non magni eveniet vitae culpa labore, recusandae
-                    praesentium omnis consequuntur laudantium harum
-                    exercitationem.
+                    Voluptate eveniet alias, blanditiis quisquam modi, explicabo
+                    quae nam dolore suscipit officia magnam?
                   </p>
-                  <button class="btn inactive">SEND TICKET</button>
-                  <button class="btn button-inactive">SEND TICKET</button>
+                </div>
+              </div>
+              <div class="premium-items">
+                <img class="premium-img" src="./images/time wheel.jpg" alt="" />
+                <div>
+                  <h6>24/7 Premium Support</h6>
+                  <p>
+                    Massa cras a congue sociosqu vulpaltate est elementum
+                    eleifend iaculis quisque egestas.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img
+            class="imagery-two"
+            src="./images/pexels-joshsorenson-1714208.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- Easy step to order -->
+      <div class="order-items-easy">
+        <div class="image-order">
+          <figure class="figure">
+            <img class="protech" src="./images/protech.jpg" alt="" />
+          </figure>
+        </div>
+        <div class="order-items">
+          <div class="content-boxs">
+            <div class="content-box-flex" id="customer-service">
+              <div class="item-span">
+                <span class="material-symbols-outlined"> sms </span>
+                <div class="description">
+                  <h5>Consultation</h5>
+                  <p>
+                    Ducimus, dignissimos? Asperiores, iusto pariatur? Animi,
+                    quia? Laborum, reprehenderit officiis !
+                  </p>
+                  <button class="btn button">CHAT NOW</button>
+                </div>
+              </div>
+              <div class="item-span">
+                <span class="material-symbols-outlined"> library_books </span>
+                <div class="description">
+                  <h5>Choose Package</h5>
+                  <p>
+                    Voluptate eveniet alias, blanditiis quisquam modi, explicabo
+                    quae nam dolore suscipit officia magnam?
+                  </p>
+                  <button class="btn button">ORDER NOW</button>
                 </div>
               </div>
               <div class="item-span">
                 <span class="material-symbols-outlined">
                   production_quantity_limits
                 </span>
-                <div class="description-two">
-                  <h5>Read Article</h5>
+                <div class="description">
+                  <h5>Productions</h5>
                   <p>
-                    Nam penatibus cubilia integer imperdiet donec laureet odio
-                    accumuliat perde.
+                    Consectetur quam asperiores ducimus deserunt eaque sed,
+                    illum sint quasi aspernatur rem. Je suis
                   </p>
-                  <button class="btn focus">READ ARTICLE</button>
-                  <button class="btn button-focus">READ ARTICLE</button>
+                  <button class="btn button">GET REPORT</button>
+                </div>
+              </div>
+              <div class="item-span">
+                <span class="material-symbols-outlined">
+                  forward_to_inbox
+                </span>
+                <div class="description">
+                  <h5>Send File Order</h5>
+                  <p>
+                    Voluptate eveniet alias, blanditiis quisquam modi, explicabo
+                    quae nam dolore suscipit officia magnam?
+                  </p>
+                  <button class="btn button">CONTACT US</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- make the world better -->
+    <section class="animation-tech">
+      <div class="main-content">
+        <section class="main-section">
+          <div id="content-wrapper-item">
+            <p class="center-align-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              autem in possimus, fuga ullam ad laboriosam corrupti repellat
+            </p>
+            <button class="btn"><a href="#">Discover More </a></button>
+          </div>
+        </section>
+      </div>
+      <div class="order-items-wrapper">
+        <div class="content-boxs">
+          <div class="content-box-flex">
+            <div class="item-span-content">
+              <div class="order-item-overlay">
+                <div class="content-wrap">
+                  <div class="content-box-flex">
+                    <div class="item-span-container">
+                      <span class="material-symbols-outlined"> sms </span>
+                      <div class="description-block">
+                        <h5>Customer Support</h5>
+                        <p>
+                          Assumenda cupiditate rerum neque repudiandae
+                          temporibus quia ab magnam
+                        </p>
+                        <button class="btn active">CHAT NOW!</button>
+                      </div>
+                    </div>
+                    <div class="item-span">
+                      <span class="material-symbols-outlined">
+                        library_books
+                      </span>
+                      <div class="description-one">
+                        <h5>Ticket Support</h5>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Velit non magni eveniet vitae
+                        </p>
+                        <button class="btn button-inactive">SEND TICKET</button>
+                      </div>
+                    </div>
+                    <div class="item-span">
+                      <span class="material-symbols-outlined">
+                        production_quantity_limits
+                      </span>
+                      <div class="description-two">
+                        <h5>Read Article</h5>
+                        <p>
+                          Nam penatibus cubilia integer imperdiet donec laureet
+                          odio accumuliat perde.
+                        </p>
+                        <button class="btn button-focus">READ ARTICLE</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
       </div>
       <section id="testimonial">
         <div class="testimonial">
           <div class="testimonial-image">
             <figure class="figure-img">
               <img
-                src="./images/perempuan-dengan-tulisan-alinka-p-di-kepala-t_flVhWks.jpg"
+                id="testimonial-img"
+                src="./images/pexels-olly-3769021.jpg"
                 alt=""
               />
             </figure>
@@ -476,41 +426,36 @@
           <div class="testimonial-wrapper">
             <span class="blue-color"> TESTIMONIAL </span>
             <h3>What they say about us</h3>
-            <div class="testimonial-box">
-              <div>
-                <p>
-                  Magnam a obcaecati perferendis officiis sunt quo error? Error
-                  consequatur voluptas itaque repudiandae repellendus, deserunt
-                  assumenda explicabo cupiditate alias!
-                  Justo euismod magna dictumst posuera viverra leo ridiculus
-                  porttitor nullaam Nam penatibus cubilia integer imperdiet
-                  donec laureet odio accumuliat perde.
-                </p>
-                <div class="span">
-                  <img id="span-img" src="./images/man.jpg" alt="" />
-                  <span class="span-item-wrap">
-                    <h6 id="heading-text">Rebacca Hayes</h6>
-                    <h6 class="heading-text">Alejandra Stone</h6>
-                    <p id="para-text">Lokamart Manager</p>
-                  </span>
+            <div class="testimonial-flex-container">
+              <div class="testimonial-box">
+                <div class="test-box">
+                  <p>
+                    Magnam a obcaecati perferendis officiis sunt quo error?
+                    Error consequatur voluptas itaque repudiandae repellendus,
+                  </p>
+                  <div class="span">
+                    <img id="span-img" src="./images/Rebecca.png" alt="" />
+                    <span class="span-item-wrap">
+                      <h6 id="heading-text">Puja Hayes</h6>
+                      <p id="para-text">Lokamart Manager</p>
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="testimonial-box">
-              <div>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Repudiandae provident minima magnam a obcaecati perferendis
-                  officiis sunt quo error? Error consequatur voluptas itaque
-                  repudiandae repellendus, deserunt assumenda explicabo
-                  cupiditate alias!
-                </p>
-                <div class="span">
-                  <img id="span-image-wrap" src="./images/man.jpg" alt="" />
-                  <span class="span-item-wrap">
-                    <h6 id="heading-six">Alejandra Stone</h6>
-                    <p id="paragraph">Lokamart Manager</p>
-                  </span>
+              <div class="testimonial-box">
+                <div class="test-box">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Repudiandae provident minima magnam a obcaecati perferendis
+                    officiis
+                  </p>
+                  <div class="span">
+                    <img id="span-image-wrap" src="./images/man.jpg" alt="" />
+                    <span class="span-item-wrap">
+                      <h6 id="heading-six">Alejandra Stone</h6>
+                      <p id="paragraph">Lokamart Manager</p>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -518,7 +463,7 @@
         </div>
       </section>
       <footer>
-        <section class="footer">
+        <section id="contact-us" class="footer">
           <div class="footer-wrapper">
             <h3 class="footer-heading">Let's talk about your project</h3>
             <button class="btn contact-us">CONTACT US</button>
@@ -568,10 +513,8 @@
         </section>
         <div class="contact-wrapper">
           <span
-            >Copy&copyright 2024 Animakit, All rights reserved.Powered by
-            Leila
-          </span
-          >
+            >Copy&copyright 2024 Animakit, All rights reserved.Powered by Leila
+          </span>
           <div class="privacy">
             <span>Term of use</span>
             <span>Privacy Policy</span>
