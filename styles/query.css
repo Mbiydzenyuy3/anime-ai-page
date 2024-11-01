@@ -5,7 +5,8 @@
   }
 
   .hero-section {
-    width: 100%;
+    width: 100%; 
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -16,12 +17,12 @@
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3rem;
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2 rem;
   }
 
   a {
@@ -59,5 +60,27 @@
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
+  }
+
+  #about-us {
+    width: 100%;
+    padding: 1em;
+    margin-top: 2rem;
+  }
+
+  .about-us-content-holder {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .content,
+  .img-image-wrap {
+    width: 50%;
+  }
+
+  .content {
+    text-align: left;
   }
 }
