@@ -173,7 +173,7 @@ a:focus {
 /* hero section styling  */
 .hero-section {
   background-image: url("../images/team-design.png");
-  background-color: #000000d8;
+  filter: brightness(60%);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -252,7 +252,6 @@ a:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
   gap: 1rem;
 }
 
@@ -284,7 +283,6 @@ a:focus {
 
 #main-content {
   background-image: url("../images/pexels-cottonbro-8721318.jpg");
-  background-color: #000000a7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -434,7 +432,7 @@ figure img {
   border-radius: 50%;
 }
 
-#blog {
+#services {
   margin-top: 4rem;
   display: block;
 }
@@ -492,6 +490,11 @@ figure img {
   margin: auto;
   padding: 1rem;
   background-color: #fff;
+}
+
+.logo-wrapper {
+  width: 100%;
+  display: flex;
 }
 
 #heading-six,
