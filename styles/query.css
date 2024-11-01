@@ -42,8 +42,10 @@
     line-height: 2rem;
   }
 
-  h2 {
+  h2,
+  h3 {
     font-size: 2rem;
+    line-height: 2rem;
   }
 
   a {
@@ -122,6 +124,7 @@
   }
 
   .span {
+    padding-top: 1em;
     width: 18rem;
     height: 6rem;
 
@@ -143,12 +146,50 @@
   .para-btn {
     width: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 0 1rem;
+    padding-top: 2rem;
   }
 
   .heading-animation {
     font-size: 1.8rem;
-    width: 45%;
+    width: 35%;
+  }
+
+  .content-box-flex {
+    flex-direction: row;
+  }
+
+  .design-img {
+    width: 350px;
+    height: 450px;
+    margin: 0;
+  }
+
+  #services,
+  .blog-why-choose-us {
+    flex-direction: row;
+  }
+
+  .premium {
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .imagery-one {
+    width: 400px;
+    height: 400px;
+  }
+
+  .items {
+    padding: 0.5em;
+    margin: 0;
+    gap: 1.5rem;
+  }
+
+  .premium-items {
+    width: 40%;
+    text-align: left;
+    gap: 1rem;
   }
 }
