@@ -82,6 +82,10 @@ h3 {
   color: #fff;
 }
 
+img .testimonial-img {
+  border-radius: 0;
+}
+
 ul {
   display: none;
   align-items: center;
@@ -91,7 +95,6 @@ ul {
 .blog-why-choose-us {
   display: flex;
   align-items: center;
-  flex-direction: column;
   width: 98%;
   margin: 3rem auto;
   gap: 1rem;
@@ -202,6 +205,12 @@ a:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.blog-why-choose-us {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .who-we-are {
@@ -338,7 +347,7 @@ video {
 .more-anime {
   display: block;
   margin: auto;
-  background-color: aliceblue;
+  background-color: #d3d5d6;
   margin-top: 5rem;
   padding: 1.5em;
 }
@@ -360,7 +369,7 @@ video {
 .items-div-wrap,
 .wrapper-item {
   border-radius: 12px;
-  box-shadow: 2px 0 2px 0;
+  box-shadow: 2px 2px 2px 3px;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
@@ -512,7 +521,6 @@ figure img {
 }
 
 /* footer styling */
-
 footer {
   width: 100%;
   background-color: #181818;
