@@ -94,10 +94,11 @@ ul {
 
 .blog-why-choose-us {
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 98%;
   margin: 3rem auto;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .blog-content-why-choose-us,
@@ -200,17 +201,10 @@ a:focus {
 }
 
 /* About us section styling */
-
 #about-us {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.blog-why-choose-us {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
 }
 
 .who-we-are {
@@ -265,7 +259,7 @@ a:focus {
 }
 
 #brand-logos {
-  padding: 1.5sem 2em;
+  padding: 1.5em 2em;
   margin-top: 70px;
   background-color: #fff;
 }
@@ -288,6 +282,7 @@ a:focus {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-1000%);
   }
