@@ -590,8 +590,9 @@ footer {
 .contact-wrapper {
   width: 98%;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
+  gap: 2rem;
   font-size: 0.7rem;
   flex-wrap: wrap;
   padding: 1em;
