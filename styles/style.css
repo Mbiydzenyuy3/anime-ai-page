@@ -176,7 +176,7 @@ a:focus {
 /* hero section styling  */
 .hero-section {
   background-image: url("../images/team-design.png");
-  filter: brightness(60%);
+  filter: brightness();
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -265,23 +265,32 @@ a:focus {
 }
 
 #brand-logos {
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.5sem 2em;
+  margin-top: 70px;
+  background-color: #fff;
 }
 
 .logos {
-  width: 98%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
-  margin: auto;
+  gap: 2em;
+  overflow: hidden;
 }
 
 .logo-items {
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1000%);
+  }
 }
 
 .img-image-wrap {
