@@ -129,24 +129,27 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: #00f;
+  color: #fff;
   border-radius: 12px;
 }
 
 .btn {
   width: 124px;
   padding: 0.7em;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: #00f;
+  color: #fff;
   border-radius: 12px;
   margin-bottom: 2rem;
 }
 
 .btn:hover {
   background-color: black;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -156,39 +159,29 @@ a:focus {
 .button-focus,
 .button-video,
 .focus,
-.inactive,
+ss .inactive,
 .active {
-  border: 1px solid #035f03;
-  color: black;
+  border: none;
+  color: #fff;
+  background-color: #7198f4;
 }
 
 .button a {
-  color: #000;
+  color: #fff;
 }
 
 .inactive,
 .button-link {
-  border: 1px solid #035f03;
+  border: none;
+  background-color: #7198f4;
 }
 
 .discover-more {
-  color: #000;
+  color: #fff;
   border-radius: 12px;
-  background-color: #fff;
-  border: 1px solid #000;
+  background-color: #7198f4;
   padding: 0.8rem;
-}
-
-.discover-more:hover {
-  background-color: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #000;
-  color: #fff;
-  cursor: pointer;
+  border: none;
 }
 
 /* hero section styling  */
@@ -597,6 +590,8 @@ footer {
 
 .contact-us {
   color: #fff;
+  background-color: #4622f8;
+  border: none;
 }
 
 .contact-wrapper {

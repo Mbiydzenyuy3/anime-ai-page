@@ -19,10 +19,6 @@
     width: 50%;
   }
 
-  a > button {
-    width: 100%;
-  }
-
   .content-spacing {
     display: block;
     gap: 2rem;
@@ -75,14 +71,20 @@
 
   .menu-bar {
     padding: 0.5em;
-    gap: 5rem;
+    gap: 1rem;
   }
 
   .menu-link {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .hyperlinks-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .hamburger-menu {
@@ -128,7 +130,7 @@
   }
 
   #profile {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
   }
 
