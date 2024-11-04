@@ -1,4 +1,30 @@
 /* Desktop screen media query */
+@media (min-width: 1440px) {
+  #home-page {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .hero-content {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .big-heading {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .first-paragraph {
+    font-size: 1.2rem;
+  }
+}
+
+/* laptop screen media query */
 @media (min-width: 1200px) {
   #home-page {
     width: 98%;
@@ -44,10 +70,6 @@
 
   .who-we-are {
     width: 100%;
-  }
-
-  p {
-    line-height: 2rem;
   }
 
   h2 {

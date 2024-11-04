@@ -9,7 +9,7 @@
 body {
   color: #000;
   font-size: 1rem;
-  font-family: Poppins, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.4rem;
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: 700;
   font-family: "DM Sans", serif;
 }
 
@@ -67,6 +67,7 @@ h1 {
 
 .first-paragraph {
   color: #fff;
+  font-size: 1rem;
 }
 
 h3 {
@@ -124,24 +125,24 @@ a:focus {
 
 .cta {
   width: 124px;
-  padding: 0.7em;
+  padding: 0.8em;
   border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00f;
+  background-color: #ff4500;
   color: #fff;
   border-radius: 12px;
 }
 
 .btn {
   width: 124px;
-  padding: 0.7em;
+  padding: 0.8em;
   border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #00f;
+  background-color: #800080;
   color: #fff;
   border-radius: 12px;
   margin-bottom: 2rem;
@@ -163,7 +164,7 @@ ss .inactive,
 .active {
   border: none;
   color: #fff;
-  background-color: #7198f4;
+  background-color: #800080;
 }
 
 .button a {
@@ -173,13 +174,13 @@ ss .inactive,
 .inactive,
 .button-link {
   border: none;
-  background-color: #7198f4;
+  background-color: #800080;
 }
 
 .discover-more {
   color: #fff;
   border-radius: 12px;
-  background-color: #7198f4;
+  background-color: #800080;
   padding: 0.8rem;
   border: none;
 }
