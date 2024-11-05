@@ -219,12 +219,6 @@
     padding-top: 2rem;
   }
 
-  .design-img-item,
-  .design-img {
-    width: 360px;
-    height: 360px;
-  }
-
   .heading-animation {
     font-size: 1.8rem;
     line-height: 32px;
@@ -278,6 +272,12 @@
     padding: 0.5em;
     margin: 0;
     gap: 1.5rem;
+  }
+
+  .design-image-item,
+  .design-img {
+    max-width: 100%;
+    vertical-align: top;
   }
 
   .premium-items {
@@ -338,13 +338,19 @@
   }
 }
 
-/* @media screen and (min-width: 1024px) {
-} */
+@media screen and (min-width: 1024px) {
+  h1 {
+    word-spacing: 1px;
+    width: 60%;
+  }
+}
 
-@media screen and (min-width: 900px) {
-  
-  
+a img {
+ max-width: 400px;
+ height: 300px;
+}
 
+@media screen and (min-width: 768px) {
   #animation-box-flex,
   #pricing {
     display: flex;
@@ -353,8 +359,29 @@
     gap: 1rem;
   }
 
-  .items {
-    width: 360px;
-    height: 360px;
+  .statistics {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    & .projects {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    & .numbers {
+      font-size: 2rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .more-anime {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .why-content {
+    align-items: flex-start;
   }
 }
