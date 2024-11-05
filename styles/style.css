@@ -76,10 +76,6 @@ p {
   line-height: 1.4rem;
 }
 
-.material-symbols-outlined {
-  padding-left: 0.5em;
-}
-
 h3 {
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -425,14 +421,16 @@ a:focus {
   justify-content: center;
   background-color: #fff;
   border-radius: 12px;
+  padding: 0.3em;
   width: 98%;
   margin: auto;
+  box-shadow: 0 0 2px 0;
 }
 
 .items {
   width: 100%;
   border-radius: 12px;
-  box-shadow: 0px 0px 2px 0px;
+  box-shadow: 0 0 2px 0;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
@@ -491,7 +489,7 @@ figure img {
 }
 
 .material-symbols-outlined {
-  font-family: "Material Symbols Outlined";
+  font-family: "Material Symbols Outlined", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 48px;
@@ -502,6 +500,7 @@ figure img {
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
+  padding-left: 0.5em;
 }
 
 #services {
