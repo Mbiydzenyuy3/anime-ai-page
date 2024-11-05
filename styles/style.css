@@ -210,8 +210,8 @@ a:focus {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  height: 100vh;
   margin: 0;
+  padding: 1rem 0;
 }
 
 .big-heading {
