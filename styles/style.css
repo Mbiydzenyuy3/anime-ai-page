@@ -476,6 +476,7 @@ figure img {
 
 .premium-items {
   display: flex;
+  gap: 2rem;
   flex-direction: row-reverse;
 }
 
