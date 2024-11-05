@@ -76,9 +76,13 @@ p {
   line-height: 1.4rem;
 }
 
+.material-symbols-outlined {
+  padding-left: 0.5em;
+}
+
 h3 {
   font-size: 1.5rem;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
 }
 
 /* headings end */
@@ -137,8 +141,8 @@ a:focus {
 /* buttons styling */
 
 .cta {
-  width: 124px;
-  padding: 0.8em;
+  width: 112px;
+  padding: 0.6em;
   border: 1px solid #fff;
   display: flex;
   align-items: center;
@@ -149,8 +153,8 @@ a:focus {
 }
 
 .btn {
-  width: 124px;
-  padding: 0.8em;
+  width: 112px;
+  padding: 0.6em;
   border: 1px solid #fff;
   display: flex;
   align-items: center;
@@ -188,14 +192,6 @@ a:focus {
 .button-link {
   border: none;
   background-color: #800080;
-}
-
-.discover-more {
-  color: #fff;
-  border-radius: 12px;
-  background-color: #800080;
-  padding: 0.8rem;
-  border: none;
 }
 
 /* hero section styling  */
@@ -378,7 +374,7 @@ a:focus {
 
 .more-anime {
   display: flex;
-  background-color: #f0f8ff;
+  background-color: #fff;
   margin-top: 2rem;
   gap: 1rem;
   padding: 2em 0.3em;
@@ -419,7 +415,7 @@ a:focus {
 .order-items,
 .order-wrap .order-items,
 .order-item-overlay {
-  background-color: #f0f8ff;
+  background-color: #fff;
 }
 
 .item-span,
@@ -428,7 +424,6 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   background-color: #fff;
-  padding: 1rem;
   border-radius: 12px;
   width: 98%;
   margin: auto;
