@@ -9,8 +9,8 @@
 body {
   color: #000;
   font-size: 1rem;
-  font-family: Poppins, serif;
-  font-weight: 400;
+  font-family: system-ui, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1.4rem;
 }
@@ -22,6 +22,7 @@ body {
 
 #home-page {
   display: block;
+  margin: 0 auto;
 }
 
 /* header /hero section styling */
@@ -45,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-weight: 700;
   font-family: "DM Sans", serif;
 }
 
@@ -60,17 +61,24 @@ h5 {
 h1 {
   font-size: 1.3rem;
   font-style: normal;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
+  letter-spacing: 3px;
   text-align: left;
 }
 
 .first-paragraph {
   color: #fff;
+  font-size: 1rem;
+}
+
+p {
+  word-spacing: 1px;
+  line-height: 1.4rem;
 }
 
 h3 {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 
 /* headings end */
@@ -81,6 +89,10 @@ h3 {
   color: #fff;
 }
 
+img .testimonial-img {
+  border-radius: 0;
+}
+
 ul {
   display: none;
   align-items: center;
@@ -89,54 +101,70 @@ ul {
 
 .blog-why-choose-us {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  text-align: left;
   width: 98%;
   margin: 3rem auto;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .blog-content-why-choose-us,
 .why-content {
-  text-align: center;
+  text-align: left;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 a {
   color: white;
   font-size: 0.75rem;
-  font-weight: medium;
   line-height: 15.6px;
   text-decoration: none;
 }
 
+a:hover {
+  cursor: alias;
+}
+
 a:focus {
-  color: blue;
+  color: #f87d03;
   cursor: pointer;
 }
 
 /* buttons styling */
 
 .cta {
-  width: 124px;
-  padding: 0.7em;
+  width: 112px;
+  padding: 0.6em;
   border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: #f87d03;
+  color: #fff;
   border-radius: 12px;
 }
 
 .btn {
-  width: 124px;
-  padding: 0.7em;
-  border: 2px solid #fff;
+  width: 112px;
+  padding: 0.6em;
+  border: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent;
+  background-color: #800080;
+  color: #fff;
   border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
 }
 
 .button,
@@ -147,38 +175,35 @@ a:focus {
 .focus,
 .inactive,
 .active {
-  border: 1px solid #035f03;
-  color: black;
+  border: none;
+  color: #fff;
+  background-color: #800080;
 }
 
 .button a {
-  color: #000;
+  color: #fff;
 }
 
-.active,
 .inactive,
 .button-link {
-  border: 1px solid #035f03;
-}
-
-.discover-more {
-  color: #000;
-  border-radius: 12px;
-  background-color: #fff;
-  border: 1px solid #000;
-  padding: 0.8rem;
+  border: none;
+  background-color: #800080;
 }
 
 /* hero section styling  */
 .hero-section {
   background-image: url("../images/team-design.png");
-  background-color: #000000d8;
+  filter: brightness(darken);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
   margin: 0;
+  padding: 1rem 0;
 }
 
 .big-heading {
@@ -188,27 +213,32 @@ a:focus {
   justify-content: center;
   gap: 1rem;
   color: #fff;
-  margin-top: 1.5rem;
+}
+
+.hero-content {
+  width: 98%;
+  margin-top: 3rem;
 }
 
 /* About us section styling */
-
 #about-us {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
 }
 
 .who-we-are {
-  color: #09a3a3;
+  color: #f87d03;
+  font-weight: 700;
+  text-align: left;
+  font-size: 1rem;
+  width: 100%;
 }
 
 .imagery-one {
   border-radius: 8px;
-}
-
-.paragraph-two {
-  width: 90%;
 }
 
 .about-us-content-holder {
@@ -219,16 +249,15 @@ a:focus {
   margin: auto;
   width: 98%;
   gap: 2rem;
+  margin-top: 2rem;
 }
 
 .content-wrapper {
-  width: 100%;
-  padding: 1rem;
-  height: 35rem;
+  width: 98%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 1rem;
   color: #fff;
   margin: auto;
@@ -236,40 +265,46 @@ a:focus {
 
 #content-wrapper-item {
   width: 100%;
-  padding: 1rem;
-  height: 35rem;
   display: flex;
   flex-direction: column;
-  justify-content: end;
-  align-items: center;
+  text-align: left;
+  gap: 1rem;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
+  text-align: left;
   gap: 1rem;
 }
 
 #brand-logos {
-  width: 100%;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.5em 2em;
+  background-color: #fff;
 }
 
 .logos {
-  width: 98%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 1rem;
-  margin: auto;
+  gap: 2em;
+  overflow: hidden;
 }
 
 .logo-items {
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-1000%);
+  }
 }
 
 .img-image-wrap {
@@ -280,18 +315,12 @@ a:focus {
 
 #main-content {
   background-image: url("../images/pexels-cottonbro-8721318.jpg");
-  background-color: #000000a7;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   filter: brightness(darken);
-  padding: 0 1rem;
-  width: 90%;
-  margin: auto;
-}
-
-video {
-  width: 100%;
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
 }
 
 .main-content {
@@ -301,10 +330,14 @@ video {
   background-position: center;
   background-size: cover;
   padding: 0 1rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .center-align-text {
-  text-align: center;
+  text-align: left;
   color: #fff;
 }
 
@@ -314,80 +347,96 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
+  text-align: center;
   padding: 0.5rem;
-  margin: -2rem auto;
+  margin: 0 auto;
   width: 98%;
 }
 
 .span {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
   font-size: large;
   font-weight: 800;
-  color: #066511;
+  color: #800080;
 }
 
 .projects {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 /* more animate section styling */
 
 .more-anime {
-  display: block;
-  margin: auto;
-  background-color: aliceblue;
-  margin-top: 5rem;
-  padding: 1.5em;
+  display: flex;
+  background-color: #fff;
+  margin-top: 2rem;
+  gap: 1rem;
+  padding: 2em 0.3em;
+  flex-direction: column;
+}
+
+.anime-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .content-boxs,
 .content-wrap {
-  margin-top: 2rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  text-align: left;
   gap: 1rem;
-  padding-top: 2rem;
 }
 
-.items,
 .item-block #item-block,
 .items-wrap,
 .items-wrapper,
 .items-div-wrap,
 .wrapper-item {
   border-radius: 12px;
-  box-shadow: 2px -2px 2px 2px;
+  box-shadow: 0 0 2px 0;
   padding: 0.5em;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: left;
   gap: 1rem;
+  margin-top: 1rem;
 }
 
 .order-items-wrapper,
 .order-items,
 .order-wrap .order-items,
 .order-item-overlay {
-  background-color: #f0f8ff;
+  background-color: #fff;
 }
 
 .item-span,
 .item-span-content .item-span-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   background-color: #fff;
-  padding: 1rem;
   border-radius: 12px;
+  padding: 0.3em;
   width: 98%;
   margin: auto;
+  box-shadow: 0 0 2px 0;
+}
+
+.items {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 2px 0;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
 img {
@@ -405,8 +454,8 @@ figure img {
 .content-box-flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -420,11 +469,17 @@ figure img {
 
 .premium-items {
   display: flex;
+  gap: 2rem;
   flex-direction: row-reverse;
 }
 
 .premium {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  gap: 1rem;
 }
 
 .premium-img {
@@ -433,8 +488,23 @@ figure img {
   border-radius: 50%;
 }
 
-#blog {
-  margin-top: 4rem;
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  padding-left: 0.5em;
+}
+
+#services {
+  margin-top: 1rem;
   display: block;
 }
 
@@ -449,7 +519,6 @@ figure img {
 .description-two {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 0.5rem;
   padding: 1rem 0;
 }
@@ -469,12 +538,19 @@ figure img {
   margin: auto;
 }
 
-#span-img,
 #span-image,
+#span-img,
 #span-image-wrap {
   width: 48px;
   height: 48px;
   border-radius: 50%;
+  margin-left: 0;
+}
+
+.test-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* Testimonial  */
@@ -482,15 +558,18 @@ figure img {
 .testimonial-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
+  padding: 1em;
 }
 
 .testimonial-box {
-  width: 98%;
-  margin: auto;
-  padding: 1rem;
+  padding: 0.5em;
   background-color: #fff;
+}
+
+.logo-wrapper {
+  width: 100%;
+  display: flex;
 }
 
 #heading-six,
@@ -499,16 +578,15 @@ figure img {
 #para-text {
   font-size: 0.8rem;
   color: #000;
-  text-align: center;
+  text-align: left;
 }
 
 .blue-color {
-  color: #00f;
+  color: #800080;
   font-weight: 700;
 }
 
 /* footer styling */
-
 footer {
   width: 100%;
   background-color: #181818;
@@ -520,7 +598,7 @@ footer {
 .footer {
   width: 98%;
   margin: auto;
-  border-bottom: 1px solid #05cd05;
+  border-bottom: 1px solid #fff;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -551,7 +629,7 @@ footer {
 
 .logo-dot {
   font-size: 1.5rem;
-  color: #05c405;
+  color: #f87d03;
 }
 
 .facebook,
@@ -564,13 +642,16 @@ footer {
 
 .contact-us {
   color: #fff;
+  background-color: #f87d03;
+  border: none;
 }
 
 .contact-wrapper {
   width: 98%;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
+  gap: 2rem;
   font-size: 0.7rem;
   flex-wrap: wrap;
   padding: 1em;

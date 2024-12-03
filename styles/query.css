@@ -1,7 +1,422 @@
-@media (min-width: 768px) {
+/* mobile */
+@media screen and (min-width: 320px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  body {
+    font-family: system-ui, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  #animation-box-flex,
+  #pricing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .statistics {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    & .projects {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    & .numbers {
+      font-size: 2rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .more-anime {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .why-content {
+    align-items: flex-start;
+  }
+
+  .btn,
+  .cta {
+    padding: 0.8rem;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    word-spacing: 1px;
+    width: 60%;
+  }
+
+  .premium-items {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .creative-team {
+    width: 50%;
+  }
+}
+
+a img {
+  max-width: 400px;
+  height: 300px;
+}
+
+/* laptop screen media query */
+@media screen and (min-width: 1200px) {
+  #home-page {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
   .hero-section {
     width: 100%;
-    height: 45vh;
+  }
+
+  .hero-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0 0.5em;
+    margin-top: 4rem;
+  }
+
+  .anime-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+  }
+
+  .big-heading {
+    width: 70%;
+  }
+
+  .content-spacing {
+    display: block;
+    gap: 2rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
+
+  .heading-three {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 1rem 0;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 1rem;
+  }
+
+  .who-we-are {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  h6 {
+    font-size: 1.3rem;
+  }
+
+  .btn,
+  .cta {
+    width: 138px;
+    cursor: alias;
+  }
+
+  header {
+    padding: 1em 0;
+  }
+
+  .menu-bar {
     padding: 0.5em;
+    gap: 1rem;
+  }
+
+  .menu-link {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .hyperlinks-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #about-us {
+    width: 100%;
+    padding: 1em;
+    margin-top: 2rem;
+  }
+
+  .about-us-content-holder {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .blog-content-why-choose-us {
+    text-align: left;
+  }
+
+  .order-items-easy {
+    border-radius: 24px;
+    width: 100%;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1em;
+    align-items: center;
+  }
+
+  .content,
+  .img-image-wrap {
+    width: 50%;
+  }
+
+  .content-boxs,
+  .content-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #animation-box-flex {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .content {
+    text-align: left;
+  }
+
+  .logo-items {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .content-wrapper {
+    margin: 0 auto;
+  }
+
+  .statistics {
+    gap: 4rem;
+    margin: -1rem 0;
+    width: 100%;
+  }
+
+  .span {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    .numbers {
+      font-size: 3rem;
+    }
+
+    .projects {
+      font-size: 1.5rem;
+    }
+  }
+
+  .imagery-two {
+    width: 350px;
+    height: 500px;
+  }
+
+  .more-anime,
+  .blog-why-choose-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .why-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .para-btn {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+
+  .heading-animation {
+    font-size: 1.8rem;
+    line-height: 32px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+  }
+
+  .image-order,
+  .item-order {
+    width: 50%;
+  }
+
+  .content-box-flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: -3rem;
+  }
+
+  #services {
+    width: 98%;
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .premium {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  #customer-service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .order-items {
+    width: 70%;
+  }
+
+  .protech {
+    width: 25rem;
+    height: 37rem;
+  }
+
+  #content-wrapper-item {
+    height: 40vh;
+  }
+
+  .center-align-text {
+    width: 50%;
+  }
+
+  .items {
+    padding: 0.5em;
+    margin: 0;
+    gap: 1.5rem;
+  }
+
+  .design-image-item,
+  .design-img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+
+  .premium-items {
+    width: 70%;
+    text-align: left;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .about-us-flex {
+    display: flex;
+  }
+
+  #testimonial {
+    margin: 3rem 0;
+    background-color: #fff;
+  }
+
+  .testimonial {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  #testimonial-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 0;
+  }
+
+  .testimonial-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    background-color: aliceblue;
+  }
+
+  .span-item-wrap {
+    margin-top: -1em 0;
+  }
+
+  .testimonial-flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  #pricing {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .test-box {
+    padding: 1em 0.5em;
+  }
+
+  .footer {
+    margin: 3rem 0;
   }
 }
